@@ -1,23 +1,24 @@
 ## README
 
-# Week 1 — AI & Data Science Salaries Analysis
+# Week 1 — Salaries Analysis
 **TalentPulse Analytics | Capstone Data Analytics Program**
 
 ## Files
 | File | Description |
 |------|-------------|
-| `Week1_YourName.ipynb` | Main notebook (Parts A–E) |
+| `Week1_Ruqaya.ipynb` | Main notebook (Parts A–E) |
 | `cleaned_salaries.csv` | Cleaned, deduplicated dataset with predicted salaries |
 | `Week1_Dashboard.pbix` | Power BI interactive dashboard |
 | `Dashboard_Screenshots.pdf` | PDF export of dashboard pages |
 | `README.md` | This file |
 
 ## Reproduction Steps
-1. Clone the repository
-2. Place `ds_salaries.csv` and `global_tech_salary.csv` in the same directory
-3. Run `Week1_YourName.ipynb` top-to-bottom (all cells execute without errors)
-4. Open `Week1_Dashboard.pbix` in Power BI Desktop
-5. If prompted, re-link data to the local `cleaned_salaries.csv`
+1. Imported necessary libraries
+2. Loaded datasets
+3. Cleaned and filtered datasets of missing and duplicate rows
+4. Prepared visualizations and code for business analytical questions
+5. Developed predictive models
+6. Visualized data using PowerBI
 
 ## Requirements
 Python 3.9+ with: pandas, numpy, matplotlib, seaborn, scipy, scikit-learn
